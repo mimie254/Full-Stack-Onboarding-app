@@ -132,6 +132,8 @@ Submission: Stores user submissions as JSON data, preserving old submissions eve
 Used Celery for asynchronous task handling.
 Currently, the notification simulates sending an email to admins by logging to the console — this can later integrate with email, Slack, or SMS APIs.
 
+http://127.0.0.1:8000/admin/forms/submission/
+
 4. Scalability
 
 Dynamic JSON fields allow flexible schema.
@@ -150,11 +152,6 @@ Add conditional validation (e.g., “income proof if amount > X”).
 
 Store notifications and submissions in the database for admin viewing.
 
-Demo Video
-
-📹 Walkthrough Video Link Here
-
-(Upload your recording to Google Drive or Loom and paste the shareable link.)
 
 Author
 
